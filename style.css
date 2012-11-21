@@ -1,0 +1,73 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background: #4f0080 url(background.jpg) top center;
+    color: #000;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 100;
+
+    line-height: 1.4em;
+}
+
+.h1-bold {
+    font-weight: 200;
+}
+
+section:not(.content) {
+    padding-bottom: 0.5em;
+}
+
+section:not(.content) + section:not(.content) {
+    border-top: dotted 1px #eee;
+}
+
+.header {
+    border-bottom: dotted 1px #eee;
+
+    padding-bottom: 1.75em;
+
+    text-align: center;
+}
+
+.logo {
+    font-size: 5em;
+    font-weight: 100;
+}
+
+.logo-bold {
+    font-weight: 900;
+}
+
+.footer {
+    border-top: dotted 1px #eee;
+
+    text-align: center;
+}
+
+.copyright {
+    padding-top: 0.8em;
+    margin-bottom: 0;
+}
+
+.container {
+    background: #fff;
+    box-shadow: #000 0 0 1em;
+
+    margin: 1em auto;
+    padding: 1em;
+
+    position: relative;
+
+    width: 20em;
+}
